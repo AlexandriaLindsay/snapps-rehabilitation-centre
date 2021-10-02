@@ -1,0 +1,169 @@
+
+    @media screen and (max-width: 768px)
+    {
+     #wrapper
+     {
+       width: 90%;
+     }
+     
+     body main #innerborder
+     {
+       width: 80%;
+       height: 450px;
+     }
+     
+     body main #innerborder img
+     {
+       max-width: 79%;
+       margin-left: 3px;
+       height: auto;
+     }
+     
+     @keyframes mainlogo
+    {
+      0%
+      {
+        opacity: 0;
+      }
+
+      100%
+      {
+        opacity: 1;
+        left: 5px;
+        top: 5px;
+      }
+    }
+    
+    header img#snappsicon
+     {
+       left: 240px;
+       top: 2px;
+     }
+     
+     header img#mainlogo
+     {
+       left: 5px;
+       top: 2px;
+     }
+     
+     header #navheader
+     {
+       display: none;
+     }
+     
+     header img#socialmedia
+     {
+       margin-left: 600px;
+       width: 14%;
+       height: auto;
+       
+     }
+
+     ul#navlist li
+     {
+       margin-left: 35px;
+     }
+     
+     footer ul li, footer hr.Hrule
+     {
+       margin-left: 25px;
+     }
+     
+     footer p
+     {
+       margin-right: 210px;
+     }
+    }
+    
+    /* Added padding to avoid main moving down the page */
+    main
+    {
+      min-height: 900px;
+      margin-top: 30px;
+      padding: 1px;
+    }
+    
+    main #innerborder
+    {
+      height: 760px;
+      width: 830px;
+      margin-top: 30px;
+      margin-left: 60px;
+      border: 5px solid #797;
+      border-radius: 5px;
+      box-shadow: 0px 3px 6px #333;
+    }
+    
+    main h1
+    {
+      padding: 0;
+      font-size: 2.5em;
+      font-family: 'Yellowtail', cursive;
+      font-weight: 400;
+      text-align: center;
+      color: #fff;
+      background-color: #797;
+      margin-top: 50px;
+      align-items: center;
+      margin: 0 auto;
+      text-shadow: 0px 3px 0px #333;
+      box-shadow: 0px 3px 10px #000;
+    }
+    
+    main img
+    {
+      position: absolute;
+      top: 90px;
+    }
+    
+     #overlay
+    {
+      background-color: rgba(0,0,0,0.6);
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      z-index: 99999;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity ease-in-out .3s;
+    }
+    
+    #modalbox
+    {
+      width: 470px;
+      height: 50px;
+      padding: 0;
+      background: #ddd;
+      background: linear-gradient(#eee, #aaa);
+      border-radius: 10px;
+      margin: 100px auto;
+      box-shadow: 0px 7px 13px rgba(0,0,0,0.8);
+      position: relative;
+    }
+    
+    #overlay:target
+    {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* CSS for the close button */
+    .close
+    {
+      text-decoration: none;
+      background-color: #797;
+      color: #fff;
+      padding: 4px 10px 7px 10px;
+      border-radius: 8px;
+      border: 2px solid #fff;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
+      position: absolute;
+      top: -10px;
+      right: -10px;
+    }
+    
+    img
+    {
+      border-radius: 10px;
+    }

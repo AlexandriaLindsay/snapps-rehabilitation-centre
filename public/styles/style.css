@@ -1,0 +1,511 @@
+body
+{
+  font-family: georgia, sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  margin: 0;
+  background: linear-gradient(#efe, #99ff99);
+  background-repeat: no-repeat;
+}
+
+img
+{
+  border: none;
+}
+   
+@keyframes mainlogo
+{
+  0%
+  {
+    opacity: 0;
+  }
+ 
+  100%
+  {
+    opacity: 1;
+    left: 340px;
+  }
+}
+
+@keyframes snappsicon
+{
+  0%
+  {
+    opacity: 0;
+  }
+ 
+  100%
+  {
+    opacity: 1;
+  }
+}
+
+@keyframes turtlelogo
+{
+  0%
+  {
+    opacity: 0;  
+  }
+  
+  100%
+  {
+    opacity: 1;  
+  }
+}
+
+#wrapper
+{
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 
+    0 5px 0px 0px #fff, 
+    0 -9px 0px 0px #fff, 
+    12px 5px 15px -4px rgba(3, 3, 3, 0.5), 
+    -12px 5px 15px -4px rgba(3, 3, 3, 0.5); 
+}
+
+header #innerheader 
+{
+  position: relative; 
+  width: 960px;
+  margin: 0 auto; 
+  height: 137px;
+}
+
+header
+{
+  height: 137px;
+  background-color: #fafafa;
+}
+
+/* facebook, twitter and instagram image in header */
+header img#socialmedia
+{
+  margin-top: 2px;
+}
+
+/* Snapps plant icon image in header */
+header img#snappsicon
+{
+  position: absolute;
+  top: 17px;
+  left: 574px;
+  
+}
+
+/* Main logo image of page in header */
+header img#mainlogo
+{
+  position: absolute;
+  top: 20px;
+  left: 340px;
+ 
+}
+
+/* Turtle logo image for header */
+header img#turtlelogo
+{
+  position: absolute;
+  top: 85px;
+  left: 0px;  
+}
+
+
+/* Header navigaiton needs to float right of page */
+ul#navheader
+{
+  margin: 0;
+  float: right;
+  padding-top: 40px;
+}
+
+/* Header navigation will display horizontally */
+ul#navheader li
+{
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 2px;
+}
+
+/* Header navigation links will have the following properties */
+ul#navheader li a
+{
+  color: #000;
+  text-decoration: none;
+  padding-left: 8px;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+ul#navheader li a:hover
+{
+  color: #3c3;
+}
+
+ul#navheader li a.currentHead
+{
+  color: #3c3;
+}
+
+nav #innernav 
+{
+  position: relative; 
+  width: 960px;
+  margin: 0 auto; 
+  height: 51px;
+  
+}
+
+nav
+{
+  height: 51px;
+  background-color: #eee;
+  box-shadow: 0px 4px 15px #666;
+}
+
+
+ul#navlist
+{
+  margin: 0 auto;
+}
+
+/* Main navigation will display horizontally */
+ul#navlist li
+{
+  display: inline-block;
+  list-style-type: none;
+  border-radius: 5px;
+  margin-left: 80px;
+  margin-top: 1px;
+  width: 120px;
+}
+
+/* Main navigation links will align center and will transition back to orginal state when not hovering */
+ul#navlist li a
+{
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 15px 10px 16px 10px;
+  text-align: center;
+  transition: all ease-in-out .4s;
+}
+
+ul#navlist li a:target
+{
+  color: #fff;
+}
+
+/* Main navition link will have a transition to the folling properties when hovered */
+ul#navlist li a:hover
+{
+  background-color: #efe;
+  box-shadow: inset 3px 3px 4px #999;
+  transition: all ease-in-out .4s;
+  transform: scale(1.06);
+}
+
+ul#navlist li.current
+{
+  background-color: #efe;
+  box-shadow: inset 3px 3px 4px #999;
+}
+
+nav ul li.dropdown
+{
+  /*position the menu item so that the popup can use it for absolute positioning reference*/   
+  position: relative;
+}
+
+nav ul li.dropdown ul#historysublist li
+{
+  width: 180px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+ /*This is the popup object*/ 
+nav ul ul#historysublist
+{
+  position: absolute;
+  top: 34px;
+  left: 0px;
+  background-color: #ddd;
+  border: 5px solid #fff;
+  padding: 0;
+  z-index: 10000000;
+  opacity: 0;
+  transition: ease-in-out .3s;
+  height: 0px;
+  clip: rect(0px, 10px, 10px, 0px);
+  box-shadow: -3px 3px 12px #000;
+
+  /*opacity: 0;*/
+}
+
+/*Show the popup when the li is hovered*/
+li.dropdown:hover ul#historysublist
+{
+  opacity: 1;
+  height: 100px;
+  overflow: hidden;
+  clip: rect(-12px, 200px, 150px, -12px);
+  /*opacity: 1;*/
+}
+
+ nav ul li.dropdown ul#gallerysublist li
+{
+  width: 180px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+ /*This is the popup object*/ 
+nav ul ul#gallerysublist
+{
+  position: absolute;
+  top: 34px;
+  left: 0px;
+  background-color: #ddd;
+  border: 5px solid #fff;
+  padding-left: 0;
+  z-index: 10000;
+  opacity: 0;
+  transition: ease-in-out .3s;
+  height: 0px;
+  clip: rect(0px, 10px, 10px, 0px);
+  box-shadow: -3px 3px 10px #000;
+  /*opacity: 0;*/
+}
+
+/*Show the popup when the li is hovered*/
+li.dropdown:hover ul#gallerysublist
+{
+  opacity: 1;
+  height: 135px;
+  overflow: hidden;
+   clip: rect(-12px, 200px, 150px, -12px);
+  /*opacity: 1;*/
+}
+
+/* CSS for humburger menu */
+@media screen and (max-width: 412px)
+{
+  nav #innernav a#menulink
+  {
+    display: block;
+    background-color: #ddd;
+    position: absolute;
+    left: 320px;
+    top: 5px;
+    width: 25px;
+    height: 27px;
+    border: 3px solid #090;
+    padding: 8px 5px 0px 5px;
+    background: linear-gradient(#ccc, #888);
+    transition: border ease-in-out 1s;
+    border-radius: 5px;
+    transition: all ease-in-out .3s;
+
+  }
+  
+  nav ul ul#historysublist
+  {
+    position: static;
+    opacity: 1;
+    height: auto;
+    border: none;
+    background-color: #cfc;
+    width: 180px;
+    box-shadow: none;
+    padding: 0;
+    margin-bottom: 0px;
+    margin-top: 0;
+  }
+  
+  ul#navlist li a
+  {
+    margin: 0;
+    margin-left: 3px;
+    width: 150px;
+    font-size: .8em;
+  }
+  
+   nav ul ul#gallerysublist
+  {
+    position: static;
+    opacity: 1;
+    height: auto;
+    border: none;
+    background-color: #cfc;
+    width: 180px;
+    box-shadow: none;
+    padding: 0;
+    margin-bottom: 0px;
+    margin-top: 0;
+  }
+  
+  #navlist li.dropdown:hover ul#gallerysublist
+{
+  opacity: 1;
+  height: auto;
+  overflow: visible;
+}
+  #navlist li.dropdown:hover ul#historysublist
+  {
+    opacity: 1;
+    height: auto;
+    overflow: visible;  
+  }
+  
+  
+
+  @media screen and (max-width: 385px)
+  {
+    nav #innernav a#menulink
+    {
+      left: 300px;
+    }  
+  }
+  
+
+  nav #innernav:hover a#menulink
+  {
+    border: 3px solid #6f6;
+  }
+
+  nav #innernav a#menulink #topbar, 
+  nav #innernav a#menulink #middlebar, 
+  nav #innernav a#menulink #bottombar
+  {
+    display: block;
+    width:  100%;
+    height: 3px;
+    background-color: #eee;
+    margin-bottom: 5px;
+    transition: all ease-in-out 1s;
+
+  }
+
+  nav #innernav:hover a#menulink #topbar, 
+  nav #innernav:hover a#menulink #middlebar, 
+  nav #innernav:hover a#menulink #bottombar
+  {
+    background-color: #fff;
+  }
+
+  nav #innernav ul#navlist
+  {
+    position: absolute;
+    left: 180px;
+    top: 40px;
+    width: 150px;
+    padding-right: 28px;
+    padding-left: 0;
+    box-shadow: 0px 5px 12px rgba(0,0,0,0.7);
+    background-color: #cfc;
+    transition: all ease-in-out .3s;
+    transform: rotateX(90deg);
+    transform-origin: top;
+    border: 3px solid #fff;
+    opacity: 0;
+    z-index: 1000000;
+  }
+
+  nav #innernav:hover ul#navlist
+  {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+/* End of hamburger menu */
+
+
+
+/* Added z-index and a position of relative to place the footer above the wrapper */
+footer
+{
+  background-color: #333;
+  position: relative;
+  z-index: 1000;
+}
+
+footer #innerfooter 
+{
+  position: relative; 
+  width: 960px;
+  margin: 0 auto;
+  min-height: 320px;
+  padding: 0;
+}
+
+
+footer ul
+{
+  margin-bottom: 0px;
+}
+
+
+footer ul li
+{
+  display: inline;
+  padding-right: 80px;
+  margin-left: 65px;
+  margin-bottom: 0;
+  line-height: 170px;
+  padding-bottom: 0;
+}
+
+
+footer ul li a
+{
+  list-style-type: none;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: .8em;
+  display: inline-block;
+}
+
+footer ul li a:hover
+{
+  color: #9f9; 
+}
+
+
+hr.Hrule 
+{
+  border-top: 1px solid #0f0;
+  width: 700px;
+}
+
+
+footer p
+{
+  text-align: center;
+  font-size: .7em;
+  color: #9f9; 
+}
+
+div.product_search 
+{
+  position: absolute !important;
+  top: 10px !important;
+  right: 0px !important;
+  border-radius: 10px !important; 
+}
+
+div.product_search input[type="submit"]
+{
+  cursor: pointer !important;
+}

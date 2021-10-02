@@ -1,0 +1,522 @@
+@media screen and (max-width: 768px)
+{
+
+html #wrapper
+{
+  width: 90%;
+}
+
+body header img#snappsicon
+ {
+   left: 240px;
+   top: 2px;
+   transition: all ease-in-out .3s;
+ }
+
+ body header #navheader
+ {
+   margin-right: 220px;
+ }
+
+ header img#socialmedia
+ {
+   margin-left: 620px;
+   width: 12%;
+   height: auto;
+   transition: all ease-in-out .3s;
+ }
+
+ nav ul#navlist li
+ {
+   margin-left: 35px;
+   transition: all ease-in-out .3s;
+ }
+
+ footer hr.Hrule
+ {
+   margin-left: 25px;
+ }
+ 
+ body footer ul li 
+ {
+   margin-left: 77px;
+   padding: 0;
+ }
+
+ footer p
+ {
+   margin-right: 210px;
+ }
+
+
+ main img#cabin
+ {
+   max-width: 100%;
+   height: auto;
+   float: none;
+   margin-right: 10px;
+   margin-left: 30px;
+ }
+
+ main span.innerpara
+ {
+   margin-right: 0px;  
+ }
+
+ #wrapper h1
+ {
+   padding-right: 110px;
+ }
+
+ #wrapper section#middlecontent img#volunteering, #wrapper section#middlecontent img#donations
+ {
+   float: none;
+   margin-right: 0;
+
+ }
+ 
+ #wrapper section#middlecontent
+ {
+   min-height: 410px;
+ }
+
+ #wrapper section#middlecontent img#donations
+ {
+   margin-left: 100px;
+ }
+
+ #wrapper section#middlecontent h2
+ {
+   margin-right: 60px;
+   padding-right: 0;
+   padding-left: 120px;
+ }
+
+ #wrapper section#middlecontent #verticalrule
+ {
+   border-right: none;
+ }
+
+ #wrapper section#bottomcontent p .innerpara
+ {
+   margin-left: 10px;
+   padding-right: 10px;
+   margin-right: 10px;
+
+ }
+
+ #wrapper section#bottomcontent img#franklinimage
+ {
+  margin-bottom: 20px; 
+  margin-right: 10px;
+  margin-left: 18px;
+  margin-top: 5px;
+ }
+
+ #wrapper section#bottomcontent h3
+ {
+   margin: 0;
+   margin-top: 180px;
+   padding-left: 50px;
+   margin-left: 5px;
+   margin-right: 5px;
+ }
+ 
+  body main #innerborder
+ {
+   width: 80%;
+ }
+
+ main form img#visaC, main form img#masterC, main form img#payP
+ {
+   left: 380px; 
+ }
+
+ #wrapper main form
+ {
+   margin-left: 40px;
+   transition: all ease-in-out .3s;
+ }
+ 
+   main table, th, tr, td
+     {
+       width: 97%;
+     }
+     
+     main img#commonturtle
+     {
+       max-width: 100%;
+       height: auto;
+     }
+     
+      body div#innerborder
+     {
+       width: 80%;
+     }
+     
+     
+     #wrapper section#middlecontent #subscribe
+     {
+       top: 340px;
+       left: 240px;
+     }
+     
+}
+
+@media screen and (max-width: 700px)
+{
+    #wrapper main h1
+  {
+    padding: 0;
+    width: 100%;
+  }
+  
+  #wrapper section#middlecontent img#volunteering
+  {
+    margin-left: 110px;
+    margin-bottom: 40px;
+  }
+  
+  #wrapper section#middlecontent img#donations
+  {
+    margin-left: 110px; 
+  }
+  
+  #wrapper section#middlecontent h2
+  {
+    width: 75%; 
+    padding-left: 10px;
+  }
+  
+  #wrapper section#middlecontent #verticalrule
+  {
+  border-right: 1px solid #797;
+  margin-left: 0;
+  left: 80px;
+  top: 120px;
+  height: 500px;
+  }
+  
+   #wrapper main form fieldset
+  {
+    width: 50%;
+    
+  }
+  
+  #wrapper section#middlecontent #subscribe
+  {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 540px)
+{
+
+  nav ul#navlist li, nav ul#navlist
+  {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0;
+    transition: all ease-in-out .5s;
+  } 
+  
+  #wrapper main h1
+  {
+    padding: 0;
+    width: 100%;
+  }
+  
+  main h1#snapps
+  {
+    width: 90%;
+  }
+  
+  #wrapper section#middlecontent img#volunteering
+  {
+    margin-left: 110px;
+    margin-bottom: 40px;
+  }
+  
+  #wrapper section#middlecontent img#donations
+  {
+    margin-left: 110px; 
+  }
+  
+  #wrapper section#middlecontent h2
+  {
+    width: 75%; 
+    padding-left: 10px;
+  }
+  
+  #wrapper section#middlecontent #verticalrule
+  {
+  border-right: 1px solid #797;
+  margin-left: 0;
+  left: 80px;
+  top: 120px;
+  height: 500px;
+  }
+  
+   #wrapper main form fieldset
+  {
+    width: 10%;
+  }
+  
+  #wrapper main form img#visaC
+  {
+    top: 705px;
+    left: 230px;
+  }
+  
+  #wrapper main form img#masterC
+  {
+    top: 760px;
+    left: 230px;
+  }
+  
+  #wrapper main form img#payP
+  {
+    top: 830px;
+    left: 230px;
+  }
+  
+  #wrapper main form fieldset
+  {
+    width: 1%;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+  }
+
+  
+}
+
+@media screen and (max-width: 412px)
+{
+     main table, th, tr, td
+     {
+       width: 97%;
+     }
+     
+     main img#commonturtle
+     {
+       max-width: 100%;
+       height: auto;
+     }
+     
+     #wrapper main img#cabin
+     {
+      width: 90%;
+     }
+
+    #wrapper main h1
+    {
+      width: 100%; 
+    }
+    
+     main h1#snapps
+      {
+        width: 87%;
+      }
+
+
+    #wrapper main span.innerpara
+    {
+      width: 90%;
+      margin-right: 10px;
+      margin-left: 0px;
+      padding-left: 10px;
+    }
+
+    #wrapper section#middlecontent #verticalrule
+    {
+      left: 35px;
+      height: 500px;
+      border-right: 1px solid #000;
+    }
+
+    #wrapper section#middlecontent img#volunteering
+    {
+      margin-left: 65px;
+      margin-bottom: 25px;
+    }
+
+    #wrapper section#middlecontent img#donations
+    {
+      margin-left: 65px;
+      margin-bottom: 0px;
+    }
+
+    #wrapper section#middlecontent h2
+    {
+      margin: 0;
+      margin-left: 20px;
+      margin-right: 0px;
+      padding: 0;
+      padding-left: 60px;
+    }
+
+    #wrapper main form fieldset
+    {
+      width: 1%;
+      margin: 0;
+      padding: 0;
+      padding-right: 20px;
+    }
+
+    #wrapper main form img#visaC
+    {
+      left: 200px;
+      top: 700px;
+    }
+
+    #wrapper main form img#masterC
+    {
+      left: 200px;
+      top: 765px;
+    }
+
+    #wrapper main form img#payP
+    {
+      left: 200px;
+      top: 830px;
+    }
+
+    #wrapper main #innerborder
+    {
+      margin-left: 30px;
+    }
+    
+    footer hr.Hrule
+    {
+     width: 35%;
+
+    }
+
+    body footer ul li
+    {
+     display: block;
+     margin-left: 125px;
+    }
+
+    footer p
+    {
+    width: 43%; 
+    }
+
+}
+
+@media screen and (max-width: 363px)
+{
+  header img#mainlogo
+  {
+    width: 30%;
+    height: auto;
+  }
+  
+  body header img#snappsicon
+  {
+    width: 3%;
+    height: auto;
+    left: 210px;
+    top: 5px;
+  }
+  
+  body #wrapper main h1
+  {
+    width: 100%;
+  }
+  
+  body #wrapper main h1#snapps
+  {
+    width: 85%;
+  }
+  
+  #wrapper section#middlecontent h2
+  {
+    padding: 0;
+    margin: 0;
+    padding-left: 50px;
+    margin-left: 5px;
+  }
+  
+   #wrapper section#middlecontent #verticalrule
+  {
+    left: 25px;
+    width: 80%;
+    height: 500px;
+    border-right: 1px solid #000;
+  }
+
+  #wrapper section#middlecontent img#volunteering
+  {
+    margin-left: 55px;
+    height: auto;
+    width: 60%;
+    margin-bottom: 25px;
+  }
+
+  #wrapper section#middlecontent img#donations
+  {
+    margin-left: 55px;
+    height: auto;
+    width: 60%;
+    margin-bottom: 0px;
+  }
+  
+  #wrapper section#bottomcontent img#franklinimage
+  {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  #wrapper main #innerborder
+  {
+    margin-left: 20px;
+  }
+  
+  #wrapper main form
+  {
+    width: 80%;
+    margin: 0;
+    padding-left: 1px;
+    
+  }
+  
+   body nav #innernav a#menulink
+    {
+      left: 280px;
+    }
+  
+   #wrapper main form img#visaC
+  {
+    left: 150px;
+    top: 700px;
+  }
+  
+  #wrapper main form img#masterC
+  {
+    left: 150px;
+    top: 765px;
+  }
+  
+  #wrapper main form img#payP
+  {
+    left: 150px;
+    top: 830px;
+  }
+  
+  #wrapper main #innerborder
+  {
+    margin-left: 30px;
+  }
+  
+}
+
+ @media screen and (max-width: 340px)
+  {
+     body nav #innernav a#menulink
+    {
+      left: 250px;
+    }   
+  }

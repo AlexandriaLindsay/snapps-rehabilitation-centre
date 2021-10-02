@@ -1,0 +1,26 @@
+/* Print Stylesheet */
+#wrapper
+{
+  width: 100%;
+}
+
+#navheader, #socialmedia, nav, footer, #subscribe, section#middlecontent
+{
+  display: none;
+}
+
+main img
+{
+  box-shadow: none !important;
+}
+
+main table, th, tr, td
+{
+  border: 1px solid #000 !important;
+  border-collapse: collapse;
+}
+
+main img#commonturtle
+{
+  display: none;
+}

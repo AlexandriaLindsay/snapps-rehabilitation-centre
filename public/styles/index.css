@@ -1,0 +1,245 @@
+
+    
+    @media screen and (max-width: 768px)
+    {
+     
+     @keyframes mainlogo
+     {
+      0%
+      {
+        opacity: 0;
+      }
+
+      100%
+      {
+        opacity: 1;
+        left: 5px;
+        top: 5px;
+      }
+     }
+    }
+   
+
+    header img#mainlogo
+    {
+      animation: mainlogo 1.5s ease-in-out 1.2s forwards;
+      opacity: 0;
+      position: absolute;
+      top: 20px;
+      left: 320px;
+      transition: all ease-in-out .3s;
+    }
+
+    header #snappsicon
+    {
+      animation: snappsicon 1.5s ease-in-out 2.3s forwards;
+      opacity: 0;
+    }
+
+    header #turtlelogo
+    {
+      opacity: 0;
+      animation: snappsicon 1.5s ease-in-out .1s forwards;
+    }
+    
+    /* Contents in wrapper needs to move down from the header and navigation */
+    #wrapper
+    {
+      margin-top: 30px;
+    }
+
+    main
+    {
+      min-height: 320px;
+      background-color: #fff;
+      position: relative;
+      padding: 1px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    main h1
+    {
+      font-family: 'Yellowtail', cursive;
+      font-weight: 400;
+      padding-left: 25px;
+      padding-bottom: 5px;
+      margin-left: 20px;
+      margin-bottom: 16px;
+      margin-top: 20px;
+      font-size: 3em;
+      color: #797;
+      text-shadow: 0px 3px 0px #333;
+      border-bottom: 1px solid #797;
+      width: 486px;
+    }
+
+    main p
+    {
+      font-family: 'Slabo 27px', serif;
+      font-size: 1.1em;
+      padding-left: 18px;
+      margin-left: 25px;
+      margin-right: 50px;
+      line-height: 32px;
+      text-shadow: 0px 2px 2px #999;
+    }
+
+    span.innerpara
+    {
+      display: block;
+      margin-top: 20px;
+      margin-right: 400px;
+      padding-right: 18px;
+      margin-left: 0px;
+      padding-left: 20px;
+      border-left: 1px solid #797;
+      border-right: 1px solid #797;
+    }
+
+    main img#cabin
+    {
+      float: right;
+      box-shadow: -2px 3px 8px #000;
+    }
+    
+    /* CSS for the middle content of the page */
+    section#middlecontent
+    {
+      min-height: 240px;
+      background-color: #fff;
+      margin-top: 70px;
+      position: relative;
+    }
+
+    section#middlecontent h2
+    {
+      font-family: 'Yellowtail', cursive;
+      font-weight: 400;
+      font-size: 2.5em;
+      color: #797;
+      text-shadow: 0px 3px 0px #222;
+      border-bottom: 1px solid #797;
+      padding-bottom: 5px;
+      padding-right: 20px;
+      padding-left: 260px;
+      margin: 0;
+      margin-right: 47px;
+      margin-left: 47px;
+    }
+
+    section#middlecontent img#donations
+    {
+      float: right;
+      margin: 20px 47px 0px 0px;
+      box-shadow: -8px 6px 15px -5px #000;
+      transition: all ease-in-out .5s;
+      box-shadow: -2px 3px 8px #000;
+    }
+    
+    /* Image link link will grow when hovered */
+    section#middlecontent img#donations:hover
+    {
+      transform: scale(1.02);
+      transition: all ease-in-out .5s;
+    }
+
+    section#middlecontent img#volunteering
+    {
+      margin: 20px 0px 0px 47px;
+      float: left;
+      box-shadow: -2px 3px 8px #000;
+      transition: all ease-in-out .5s;
+    }
+    
+    /* Image link will grow when hovered */
+    section#middlecontent img#volunteering:hover
+    {
+      transition: all ease-in-out .5s;
+      transform: scale(1.02);
+    }
+
+    section#middlecontent #verticalrule
+    {
+      width: 285px;
+      height: 120px; 
+      background-color: transparent;
+      position: absolute;
+      top: 95px;
+      left: 335px;
+      border-right: 1px solid #090;
+      border-left: 1px solid #090;
+      z-index: 0;
+    }
+
+    section#middlecontent #subscribe
+    {
+      float: left;
+      position: absolute;
+      left: 380px;
+      top: 120px;
+      border-radius: 5px;
+      padding: 20px 14px 20px 14px;
+      background: linear-gradient(#cfc, #9f9);
+      box-shadow: 0px 4px 5px #666;
+      color: #000;
+      transition: all ease-in-out .3s;
+    }
+    
+    section#middlecontent #subscribe:hover
+    {
+      transform: scale(1.1);  
+    }
+
+
+    /* Added padding to prevent section from moving */
+    section#bottomcontent
+    {
+      min-height: 520px;
+      background-color: #cfc;
+      padding: 1px;
+      margin-top: 0px;
+      position: relative;
+      background-color: #fff;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    section#bottomcontent img#franklinimage
+    {
+      float: left;
+      padding: 1px;
+      margin-left: 55px;
+      box-shadow: -2px 3px 12px #000;
+    }
+
+    section#bottomcontent h3
+    {
+      font-family: 'Yellowtail', cursive;
+      font-weight: 400;
+      font-size: 2.5em;
+      color: #797;
+      text-shadow: 0px 3px 0px #222;
+      border-bottom: 1px solid #797;
+      padding-bottom: 5px;
+      padding-right: 20px;
+      margin-bottom: 0;
+      padding-left: 10px;
+      margin-left: 420px;
+      margin-top: 90px;
+      margin-right: 14px;
+    }
+
+    section#bottomcontent p .innerpara
+    {
+      line-height: 35px;
+      text-shadow: 0px 2px 2px #999;
+      margin-left: 450px;
+      margin-bottom: 0;
+      border-right: 1px solid #797;
+      border-left: 1px solid #797;
+      padding-right: 6px;
+      margin-right: 44px;
+    }
+      
+  

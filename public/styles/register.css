@@ -1,0 +1,83 @@
+
+main
+{
+  min-height: 700px; 
+}
+
+h1
+{
+  padding: 10px;
+  color: #050;
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.5em;
+  font-family: 'Yellowtail', cursive;
+  font-weight: 400;
+  color: #fff;
+  background-color: #797;
+  text-shadow: 0px 3px 0px #333;
+  box-shadow: 0px 3px 10px #000;
+  margin-bottom: 45px;
+  padding-left: 170px;
+}
+
+h1.else
+{
+  text-align: center;
+  padding-right: 150px;
+}
+
+h2.else, p.else
+{
+  margin-left: 300px;
+}
+
+h2.else
+{
+  font-size: 42px;
+  color: #060;
+  margin-top: 80px;
+  text-decoration: underline;
+}
+
+p.else
+{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+fieldset
+{
+  width: 40%;
+  margin-left: 90px;
+  padding: 10;
+  border: 5px dotted #090;
+  position: absolute;
+  top: 120px;
+  
+}
+
+label
+{
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+fieldset form input
+{
+  float: right;
+  box-shadow: 0px -1px  4px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  padding: 2px;
+  background-color: #cfc;
+}
+
+.error
+{
+  color: #f00;
+  font-size: 18px;
+  margin-left: 550px;
+  line-height: 37px;
+  margin-top: 65px;
+  margin-bottom: 0;
+  font-family: Arial, sans-serif;
+}

@@ -1,0 +1,178 @@
+    
+    @media screen and (max-width: 768px)
+    {
+    
+     @keyframes mainlogo
+    {
+      0%
+      {
+        opacity: 0;
+      }
+
+      100%
+      {
+        opacity: 1;
+        left: 5px;
+        top: 5px;
+      }
+    }
+    
+    header img#snappsicon
+     {
+       left: 240px;
+       top: 2px;
+     }
+     
+     header img#mainlogo
+     {
+       left: 5px;
+       top: 2px;
+     }
+     
+    }
+    
+    
+    /* Added padding to avoid main moving down the page */
+    main
+    {
+      min-height: 900px;
+      margin-top: 30px;
+      padding: 1px;
+      padding-bottom: 10px;
+      position: relative;
+    }
+    
+    main #innerborder
+    {
+      min-height: 760px;
+      width: 830px;
+      margin-top: 30px;
+      margin-left: 60px;
+      border: 3px solid #797;
+      border-radius: 5px;
+      box-shadow: 0px 3px 6px #333;
+      background: linear-gradient(#fff, #ccc);
+    }
+    
+    main h1
+    {
+      padding: 0;
+      font-size: 2.5em;
+      font-family: 'Yellowtail', cursive;
+      font-weight: 400;
+      text-align: center;
+      color: #fff;
+      background-color: #797;
+      margin-top: 50px;
+      align-items: center;
+      margin: 0 auto;
+      text-shadow: 0px 3px 0px #333;
+      box-shadow: 0px 3px 10px #000;
+    }
+    
+    main form
+    {
+      padding: 8px 10px 8px 10px;
+      margin-left: 180px;
+    }
+    
+    main form fieldset
+    {
+      width: 300px;
+      margin-top: 15px;
+      padding-left: 140px;
+      padding-right: 0px;
+      border: 2px dotted #797;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+    
+    main form legend
+    {
+      border: 3px solid #797;
+      border-radius: 5px;
+      padding: 8px;
+      font-family: 'Slabo 27px', serif;
+      font-weight: 700;
+      font-size: 1.2em;
+      box-shadow: -1px 2px 8px #000;
+      margin-right: 10px;
+      background-color: #f4fef4;
+    }
+   
+    label[for="phoneNumber"]
+    {
+      display: block;
+    }
+    
+    input[type="tel"]
+    {
+      border-radius: 5px;
+    }
+    
+    form fieldset input[type="text"]
+    {
+      display: block;
+      border-radius: 5px;
+    }
+    
+    select[id="provstate"]
+    {
+      display: block;
+      border-radius: 5px;
+    }
+    
+    select[id="month"], select[id="year"], input[type="submit"], input[type="reset"]
+    {
+      border-radius: 5px;
+    }
+    
+    input[type="text"]:focus, 
+    #phoneNumber:focus, 
+    select:focus, 
+    input[list="country"]:focus, 
+    input[type="submit"]:focus, 
+    input[type="reset"]:focus, 
+    input[type="radio"]:focus, 
+    input[type="checkbox"]:focus
+    {
+      outline: none;
+      border-color: #cfc;
+      box-shadow: 0 0 10px #cfc;
+      background-color: #f4fef4;
+    }
+    
+    input[list="country"]
+    {
+      display:block;
+      border-radius: 5px;
+    }
+    
+    
+    img#masterC
+    {
+      position: absolute;
+      left: 540px;
+      top: 770px;
+    }
+
+
+    img#visaC
+    {
+      position: absolute;
+      left: 540px;
+      top: 700px;
+    }
+
+    img#payP
+    {
+      position: absolute;
+      left: 539px;
+      bottom: 385px;
+    }
+    
+    main img#babysnap
+    {
+      float: right;
+      margin-right: 130px;
+    }

@@ -1,0 +1,113 @@
+    
+    @media screen and (max-width: 768px)
+    {
+      #wrapper
+      {
+        width: 90%;
+      }
+     
+      @keyframes mainlogo
+      {
+        0%
+        {
+          opacity: 0;
+        }
+
+        100%
+        {
+          opacity: 1;
+          left: 5px;
+          top: 5px;
+        }
+      }
+
+      header img#snappsicon
+      {
+        left: 240px;
+        top: 2px;
+      }
+
+      header img#mainlogo
+      {
+        left: 5px;
+        top: 2px;
+      }
+    }
+    
+      main
+      {
+        min-height: 700px;
+        margin-top: 30px;
+      }
+      
+      table
+      {
+        margin-top: 100px;
+        background-color: #050;
+        border-radius: 5px;
+        margin-top: 0;
+        border-spacing: 2px;
+        padding: 1px;
+      }
+      
+      table, td, tr, th
+      {
+        border: 2px dotted #050;
+        width: 940px;
+        margin-left: 10px;
+      }
+      td, th
+      {
+        padding: 10px;
+        background-color: #fff;
+      }
+      
+      th
+      {
+        font-size: 1.4em;
+        text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.3);
+      }
+      
+      p, h1
+      {
+        padding-left: 10px;
+      }
+      
+      h1
+      {
+        font-family: 'Yellowtail', cursive;
+        font-weight: 400;
+        font-size: 2.5em;
+        color: #fff;
+        text-shadow: 0px 3px 0px #222;
+        background-color: #797;
+        text-align: center;
+        padding-bottom: 6px;
+        margin-bottom: 0;
+      }
+      
+      p
+      {
+        font-size: 1.1em;
+        line-height: 35px;
+        text-shadow: 0px 2px 2px #999;
+      }
+      
+      main img
+      {
+        margin-left: 0;
+        margin-right: 50px;
+      }
+      
+      caption
+      {
+        font-size: 1.4em;
+        margin-bottom: 5px;
+        color: #060;
+        font-weight: 600;
+        margin-top: 5px;
+        background-color: #cfc;
+        padding: 10px;
+      }
+    
+    

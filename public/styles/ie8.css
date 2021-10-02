@@ -1,0 +1,54 @@
+/* Stylesheet to fix IE8 issues */
+header,
+footer,
+main,
+nav
+{
+  display: block;
+}
+
+body
+{
+  background-color: #cfc;
+  background-repeat: no-repeat;
+}
+
+#wrapper section#bottomcontent img#franklinimage, p, h3
+{
+  margin-right: 40px;
+  clear: both;
+}
+
+header img#socialmedia
+{
+  border: none;
+}
+
+header img#mainlogo, header img#turtlelogo, header img#snappslogo
+{
+  opacity: 1;
+}
+
+section#middlecontent #subscribe
+{
+  background-color: #cfc;
+  margin-left: 50px;
+}
+
+section#middlecontent #subscribe:hover
+{
+  background-color: #090;
+  color: #fff;
+  margin-left: 50px;
+}
+
+#overlay
+{
+  display: none;
+}
+
+#innerfooter ul
+{
+  display: inline-block;
+  margin: 0;
+}

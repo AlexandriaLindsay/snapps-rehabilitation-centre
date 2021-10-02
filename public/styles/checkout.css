@@ -1,0 +1,91 @@
+h1
+{
+  padding: 10px;
+  color: #050;
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.8em;
+  font-family: 'Yellowtail', cursive;
+  font-weight: 400;
+  color: #fff;
+  background-color: #797;
+  text-shadow: 0px 3px 0px #333;
+  box-shadow: 0px 3px 10px #000;
+  margin-bottom: 45px;
+  padding-left: 420px;
+  text-transform: capitalize;
+}
+
+table
+{
+	padding-left: 20px;
+}
+
+
+td
+{
+	border-bottom: 1px solid #030;
+	padding: 10px;
+}
+
+
+img.checkout
+{
+	width: 40%;
+	height: 40%;
+}
+
+div#innerborder
+{
+  padding-bottom: 20px;
+}
+{
+  min-height: 200px;
+}
+
+main.empty_cart
+{
+	min-height: 180px;
+}
+
+h2
+{
+	color: #030;
+	font-family: Arial, sans-serif;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+table#total
+{
+	margin-left: 680px;
+	padding-bottom: 10px;
+}
+
+
+td.total
+{
+	border-bottom: none;
+}
+
+input.cart_delete
+{
+	cursor: pointer;
+	border-radius: 10px;
+	background-color: #cfc;
+	padding: 4px;
+}
+
+a#payment
+{
+  margin-left: 735px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 180px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #9e9;
+  text-decoration: none;
+  cursor: pointer;
+}
+

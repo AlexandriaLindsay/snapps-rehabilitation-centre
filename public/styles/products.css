@@ -1,0 +1,127 @@
+
+h1
+{
+  padding: 10px;
+  color: #050;
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.8em;
+  font-family: 'Yellowtail', cursive;
+  font-weight: 400;
+  color: #fff;
+  background-color: #797;
+  text-shadow: 0px 3px 0px #333;
+  box-shadow: 0px 3px 10px #000;
+  margin-bottom: 45px;
+  padding-left: 420px;
+  text-transform: capitalize;
+}
+
+
+table tr th
+{
+	font-size: 20px;
+	font-weight: 700;
+  padding-left: 50px;
+  font-family: Arial, sans-serif;
+  color: #030;
+}
+
+div ul.sidenav 
+{
+  list-style-type: none;
+}
+
+div#snav
+{
+  width: 250px;
+  position: fixed;
+  min-height: 300px;
+  margin-top: 30px;
+  margin-left: 15px;
+  background-color: #cfc;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 50000;
+}
+
+div#snav ul.sidenav li a
+{
+  line-height: 40px;
+  color: #030;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+div#snav ul.sidenav li a:hover
+{
+  color: #030;
+  text-decoration: underline;;
+}
+
+table
+{
+  width: 80%;
+  padding-left: 25px;
+}
+
+
+td
+{
+  padding-left: 100px;
+  padding-top: 50px;
+  font-family: Arial, sans-serif;
+  border-bottom: 1px solid #030;
+  padding-bottom: 30px;
+}
+
+div.detail_image img
+{
+  height: 240px;
+  width: 240px;
+  margin-left: 370px;
+  margin-top: 10px;
+}
+
+div.detail
+{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+input.cart
+{
+  position: absolute;
+  top: 240px;
+  width: 100px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #cfc;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+div.cart
+{
+  width: 180px;
+  height: 80px;
+  padding: 10px;
+  background-color: #cfc;
+  position: absolute;
+  top: 0;
+  left: 1000px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 4px  8px rgba(0,0,0,0.5);
+}
+
+input#checkout
+{
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px;
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(#7a7, #cfc);
+  cursor: pointer;
+}
